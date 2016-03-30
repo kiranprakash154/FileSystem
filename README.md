@@ -1,5 +1,5 @@
 # FileSystem
-This is basic File System created using Java Object Oriented Principles. <br />
+This is a basic File System created using Java Object Oriented Principles. <br />
 I have provided the functions to create, move, delete and write to a text file.<br /><br />
 
 ######User can,<br />
