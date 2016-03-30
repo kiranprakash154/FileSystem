@@ -1,6 +1,6 @@
 # FileSystem
 This is a basic File System created using Java Object Oriented Principles. <br />
-I have provided the functions to create, move, delete and write to a text file.<br /><br />
+I have provided the functions to create, move, delete entities and write to a text file.<br /><br />
 
 ######User can,<br />
 1. create, move, delete any entity.<br />
@@ -12,8 +12,7 @@ I have provided the functions to create, move, delete and write to a text file.<
 
 ######FILESYSTEM STRUCTURE: <br />
 1. File System has set of Drives with the default C drive.<br />
-2. Each Drive, Folder and ZipFiles can contain Folders, ZipFiles and TextFiles.<br />
-3. ZipFiles are write protected.<br /><br />
+2. Each Drive, Folder and ZipFiles can contain Folders, ZipFiles and TextFiles.<br /><br />
 
 
 ######CLASSES:<br />
