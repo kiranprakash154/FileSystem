@@ -1,5 +1,14 @@
 # FileSystem
-In Java<br /><br />
+This is basic File System created using Java Object Oriented Principles. <br />
+I have provided the functions to create, move, delete and write to a text file.<br /><br />
+
+######User can,<br />
+1. create, move, delete any entity.<br />
+2. write string to a Text File.<br /><br />
+
+######User cannot,<br />
+1. create, move, or delete any entities in/from a zipFile.<br />
+2. set/update size of an entity.<br /><br />
 
 ######FILESYSTEM STRUCTURE: <br />
 1. File System has set of Drives with the default C drive.<br />
@@ -23,11 +32,5 @@ In Java<br /><br />
 7. Size of a zipFile is always half its actual size.<br /><br />
 
 
-######User can,<br />
-1. create, move, delete any entity.<br />
-2. write string to a Text File.<br /><br />
 
-######User cannot,<br />
-1. create, move, or delete any entities in/from a zipFile.<br />
-2. set/update size of an entity.<br /><br />
 
