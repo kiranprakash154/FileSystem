@@ -161,6 +161,18 @@ public class Drive extends Entity implements Comparable<Drive>{
 							return textFile;
 			return null;
 		}
+		
+		public void display(){
+			System.out.println("Folders");
+			for(Folder folderRef:this.getFolders())
+				folderRef.getName();
+			System.out.println("ZipFiles");
+			for(ZipFile zipFileRef:this.getZipFiles())
+				zipFileRef.getName();
+			System.out.println("TextFiles");
+			for(TextFile textFileRef:this.getTextFiles())
+				textFileRef.getName();
+		}
 	
 	
 	//over ridden functions to use custom made objects with LinkedHashSet
