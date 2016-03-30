@@ -30,6 +30,7 @@ public class ZipFile extends Entity implements Comparable<ZipFile>{
 	
 	//getters
 	public int getSize(){
+		this.setSize();
 		return this.size;
 	}
 	

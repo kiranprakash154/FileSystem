@@ -19,31 +19,25 @@ public class TextFile extends Entity implements Comparable<TextFile>{
 	
 	//getters
 	public String getContent() {
-		return content;
+		return this.content;
 	}
 	public int getSize(){
+		this.initSize();
 		return this.size;
 	}
 	
+	// initializes the size
+	private void initSize() {
+		this.size = this.content.length();
+	}
 	
 	//setters
-	public void setSize(int size) {
-		this.size = size;
-	}
 
 	public void setContent(String content) {
 		this.content = content;
-		this.updateSize(content);
-	}
-	
-
-	//updates this size once content has been changed
-	private void updateSize(String content) {
-		this.setSize(this.getSize()+content.length());
+		this.size = this.content.length();
 	}
 
-	
-	
 	//over ridden functions to use custom made objects with HashSet
 	@Override
 	public int hashCode() {

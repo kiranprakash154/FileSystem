@@ -70,6 +70,7 @@ public class Drive extends Entity implements Comparable<Drive>{
 		this.size = size;
 	}
 	public int getSize(){
+		this.setSize();
 		return this.size;
 	}
 	

@@ -77,6 +77,7 @@ public class Folder extends Entity implements Comparable<Folder>{
 		}
 		
 		public int getSize(){
+			this.setSize();
 			return this.size;
 		}	
 		public Set<String> getcontentsInThisEntity() {
