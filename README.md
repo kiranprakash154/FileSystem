@@ -7,7 +7,7 @@ I have provided the functions to create, move, delete entities and write to a te
 2. write string to a Text File.<br /><br />
 
 ######User cannot,<br />
-1. move, or delete any entities in/from a zipFile.<br />
+1. move or delete any entities in/from a zipFile.<br />
 2. set/update size of an entity.<br /><br />
 
 ######FILESYSTEM STRUCTURE: <br />
